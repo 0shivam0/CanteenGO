@@ -10,7 +10,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="fontawesome/css/all.css" rel="stylesheet" />
-
+    <link href="mycss/mycustomcss.css" rel="stylesheet" />
     <%--all js--%>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -86,15 +86,23 @@
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server">Publisher Management</asp:LinkButton>
                             &nbsp;
+                               <!-- book inventory -->
                             <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server">Canteen Inventory</asp:LinkButton>
                             &nbsp;
+                             <!-- book issuing -->
                             <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server">Order Processing</asp:LinkButton>
                             &nbsp;
                              <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server">Member Management</asp:LinkButton>
                         </p>
-
                     </div>
 
+                </div>
+            </div>
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color: whitesmoke"> CanteenGO. <a class="footerlinks" href="#" target="_blank">Shivam Singh</a></p>
+                    </div>
                 </div>
             </div>
         </footer>
