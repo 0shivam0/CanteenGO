@@ -2,8 +2,7 @@
 
 This project is a full-stack food ordering application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It features a responsive design, real-time state management, and an admin panel for comprehensive functionality.
 
-<!-- ## Demo 🎥
-[Live Demo](#) (Add your deployed link here)-->
+
 
 ## Features ✨
 
