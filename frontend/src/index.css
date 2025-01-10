@@ -7,7 +7,15 @@
 }
 body{
   min-height: 100vh;
+  background: url("assets/bg.jpg") no-repeat;
+  background-size: cover;
 }
+
+#root {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
 a{
   text-decoration: none;
   color: inherit;
